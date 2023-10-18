@@ -1,27 +1,26 @@
 package com.mycompany.pelu;
 
-public class Roberto{
-    public int resultado =0;
-    public int cantidad =0;
-    
-    public void corteCaballero(){
+public class Roberto implements Peluquero {
+    public int resultado = 0;
+    public int cantidad = 0;
+
+    public void corteCaballero() {
         resultado += 8000;
         cantidad ++;
     }
-    
-    public void corteDama(){
+
+    public void corteDama() {
         resultado += 10500;
         cantidad ++;
     }
-    
-    public void tintura(){
+
+    public void tintura() {
         resultado += 40000;
         cantidad ++;
     }
-    
-    public void peinado(){
+
+    public void peinado() {
         resultado += 15000;
         cantidad ++;
     }
-    
 }
