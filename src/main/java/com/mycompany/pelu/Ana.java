@@ -25,10 +25,3 @@ public class Ana implements Peluquero {
     }
 }
     
-    public void peinado(){
-        resultado += 15000;
-        cantidad ++;
-    }
-    
-}
-    
